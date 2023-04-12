@@ -2,6 +2,10 @@ import boto3
 from time import sleep
 import os
 
+# references
+# https://boto3.amazonaws.com/v1/documentation/api/latest/guide/sqs-example-sending-receiving-msgs.html
+# https://docs.aws.amazon.com/cli/latest/reference/sqs/index.html#cli-aws-sqs
+
 
 class SQSClient():
     def __init__(self, q_url: str) -> None:
