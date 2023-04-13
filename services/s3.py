@@ -60,7 +60,7 @@ class S3Client():
 if __name__ == '__main__':
     # vars
     url = "http://localhost:4566/"  # "http://test.s3.localhost.localstack.cloud:4566/" # can also reference bucket directly
-    fname = 'donuts.json'
+    fname = 'dummy_data/donuts.json'
 
     # get the client
     s3 = S3Client(url)
